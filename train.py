@@ -19,7 +19,7 @@ def iou(y_true, y_pred):
 
 if __name__ == "__main__":
     ## Dataset
-    path = "CVC-612/"
+    path = "Consep1/"
     (train_x, train_y), (valid_x, valid_y), (test_x, test_y) = load_data(path)
 
     ## Hyperparameters
